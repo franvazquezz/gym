@@ -1,0 +1,247 @@
+[
+  {
+    "name": "Tren inferior & zona media",
+    "img": "https://i.pinimg.com/736x/49/7e/84/497e847cd3af9e5e913bbdc9231e2be9--fitness-quotes-fitness-motivation.jpg",
+    "id" : 1,
+    "warmup": {
+      "name": "Entrada en Calor",
+      "ejercicios" : [{
+        "name" : "Tejido blando",
+        "time" : "4 minutos",
+        "gif" : "https://www.pngall.com/wp-content/uploads/2016/05/Foam-Roller-Transparent.png"
+      }, {
+        "name" : "Puente estrella",
+        "time" : "30 segundos"
+      }, {
+        "name" : "Estiramiento de isquios desde estocada",
+        "repeticiones" : 12,
+        "gif": "https://thumbs.gfycat.com/DecisiveGeneralAtlanticridleyturtle-size_restricted.gif"
+      }, {
+        "name" : "Buda",
+        "repeticiones" : 12
+      },{
+        "name" : "Movilidad de cadera 90/90 acostado ",
+        "repeticiones" : 12,
+        "gif": "https://post.greatist.com/wp-content/uploads/sites/2/2020/06/GRT-Double-Hip-Rotation.gif"
+      }]
+    }, 
+    "anaerobico" : {
+      "name": "Anaerobico",
+      "ejercicios" : [
+        {
+        "name" : "Shuffle + aceleración 5 metros",
+        "repeticiones" : 8,
+        "series" : 2
+        },
+        {
+          "name" : "Salto al cajón",
+          "repeticiones" : 8,
+          "series" : 2,
+          "gif":"https://runningmagazine.ca/wp-content/uploads/2016/03/output_Q4m1ZS.gif"
+        },
+        {
+          "name" : "Sentadilla bulgara",
+          "repeticiones" : 12,
+          "series" : 4,
+          "gif":"https://hips.hearstapps.com/hmg-prod/images/workouts/2016/03/dumbbellbulgariangobletsplitsquat-1457046602.gif"
+        },
+        {
+          "name" : "Bici pesada",
+          "time" : "1 minuto",
+          "series" : 4
+        },
+        {
+          "name" : "Estocada en el lugar",
+          "repeticiones" : 20,
+          "series" : 4,
+          "gif":"https://hips.hearstapps.com/hmg-prod/images/workouts/2016/03/dumbbelllungewithrotation-1457030743.gif"
+        },
+        {
+          "name" : "Abdominales cortos",
+          "repeticiones" : 30,
+          "series" : 4,
+          "gif":"https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/07/20104716/Cirio_Abdominales_1.gif"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Tren superior & zona media",
+    "img": "https://www.pngmart.com/files/21/Gym-Silhoutte-Transparent-PNG.png",
+    "id" : 2,
+    "warmup": {
+      "name": "Entrada en Calor",
+      "ejercicios" : [{
+        "name" : "Tejido blando",
+        "time" : "4 minutos",
+        "gif" : "https://www.pngall.com/wp-content/uploads/2016/05/Foam-Roller-Transparent.png"
+      }, {
+        "name" : "Estiramiento p/isquios c/banda",
+        "repeticiones" : 12,
+        "gif" : "https://www.vissco.com/wp-content/uploads/animation/sub/supine-hamstring-stretch-with-towel.gif"
+      }, {
+        "name" : "Movilidad dorsal acostado",
+        "repeticiones" : 8
+      }, {
+        "name" : "Rotación de hombros c/banda",
+        "repeticiones" : 20,
+        "series" : 2
+      },{
+        "name" : "Abdominales lanzando pelota a pared",
+        "repeticiones" : 20,
+        "series" : 2
+      }]
+    }, 
+    "anaerobico" : {
+      "name": "Anaeróbico",
+      "ejercicios" : [
+        {
+        "name" : "Cross-over + aceleracion 5 metros",
+        "repeticiones" : 8,
+        "series" : 2
+        },
+        {
+          "name" : "Shuffle + salto 1 pierna",
+          "repeticiones" : 10,
+          "series" : 2
+        },
+        {
+          "name" : "Tirón al pecho 1 mano ",
+          "repeticiones" : 20,
+          "series" : 4
+        },
+        {
+          "name" : "Biceps isometrico",
+          "time" : "30 segundos",
+          "series" : 4
+        },
+        {
+          "name" : "Remo con mancuerna",
+          "repeticiones" : 30,
+          "series" : 4
+        },
+        {
+          "name" : "Lanzamientos cortos 1 mano",
+          "repeticiones" : 30,
+          "series" : 4
+        }
+      ]
+    }
+  },
+  {
+    "name": "Tren superior & tren Inferior",
+    "img":"http://silhouettesfree.com/comics/thor/thor-silhouette-image-8.png",
+    "id" : 3,
+    "warmup": {
+      "name": "Entrada en Calor",
+      "ejercicios" : [{
+        "name" : "Tejido blando",
+        "time" : "4 minutos",
+        "gif" : "https://www.pngall.com/wp-content/uploads/2016/05/Foam-Roller-Transparent.png"
+      }, {
+        "name" : "Psoas c/ asistencia de banda",
+        "repeticiones" : 12
+      }, {
+        "name" : "Isquios flexo-extension con banda",
+        "repeticiones" : 12
+      }, {
+        "name" : "Movilidad dorsal boca abajo",
+        "repeticiones" : 8
+      },{
+        "name" : "Flexiones de brazo",
+        "repeticiones" : 12
+      }]
+    }, 
+    "anaerobico" : {
+      "name": "Anaeróbico",
+      "ejercicios" : [
+        {
+        "name" : "Salto en largo con banda",
+        "repeticiones" : 8,
+        "series" : 2
+        },
+        {
+          "name" : "Aceleración 10 metros",
+          "repeticiones" : 10,
+          "series" : 2
+        },
+        {
+          "name" : "Press de banca con mancuerna",
+          "repeticiones" : 12,
+          "series" : 4
+        },
+        {
+          "name" : "Subida al cajon con mancuerna",
+          "repeticiones" : 16,
+          "series" : 4
+        },
+        {
+          "name" : "Triceps posicion de scrum",
+          "repeticiones" : 10,
+          "series" : 4
+        },
+        {
+          "name" : "Apertura alternado",
+          "repeticiones" : 16,
+          "series" : 4
+        }
+      ]
+    }
+  },
+  {
+    "name": "Tren superior & zona media",
+    "img": "https://static.vecteezy.com/system/resources/previews/008/743/782/original/fist-up-black-glyph-icon-symbol-of-protest-and-resistance-political-solidarity-strength-and-power-silhouette-symbol-on-white-space-solid-pictogram-isolated-illustration-vector.jpg",
+    "id" : 4,
+    "warmup": {
+      "name": "Entrada en Calor",
+      "ejercicios" : [{
+        "name" : "Tejido blando",
+        "time" : "4 minutos",
+        "gif" : "https://www.pngall.com/wp-content/uploads/2016/05/Foam-Roller-Transparent.png"
+      }, {
+        "name" : "Movilidad de tobillo contra pared",
+        "repeticiones" : 20
+      }, {
+        "name" : "Escorpion",
+        "repeticiones" : 12
+      }, {
+        "name" : "Puente estrella",
+        "time" : "30 segundos",
+        "series" : 2
+      },{
+        "name" : "Rotación de hombros c/banda",
+        "repeticiones" : 20
+      }]
+    }, 
+    "anaerobico" : {
+      "name": "Anaeróbico",
+      "ejercicios" : [
+        {
+          "name" : "Lanzamiento a 1 mano",
+          "repeticiones" : 10,
+          "series" : 2
+        },
+        {
+          "name" : "Press militar",
+          "repeticiones" : 20,
+          "series" : 4
+        },
+        {
+          "name" : "Remo al menton",
+          "repeticiones" : 15,
+          "series" : 4
+        },
+        {
+          "name" : "Multivuelos / Vuelta al mundo",
+          "repeticiones" : 15,
+          "series" : 4
+        },
+        {
+          "name" : "Abdominal libre",
+          "repeticiones" : 30,
+          "series" : 4
+        }
+      ]
+    }
+  }
+]
