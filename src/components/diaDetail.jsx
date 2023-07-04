@@ -36,7 +36,7 @@ const DiaDetail = () => {
     ss = ss < 10 ? "0" + ss : ss;
     cm = cm < 10 ? "0" + cm : cm;
 
-    return `${mm}:${ss}:${cm}`;
+    return `${mm}:${ss}`;
   }
 
 
