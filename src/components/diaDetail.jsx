@@ -52,12 +52,24 @@ const DiaDetail = () => {
 
 			return `${mm}:${ss}`;
 		}
-	};
+	};useEffect(() => {
+		(async () => {
+			const LocomotiveScroll = (await import("locomotive-scroll")).default;
+
+			const locomotiveScroll = new LocomotiveScroll({
+				lenisOptions: {
+					duration: 1,
+				},
+			});
+		})();
+	}, []);
 
 	return (
 		<div key="asd">
 			<section key="asds" className="mx-auto min-w-screen bg-white">
 				<div
+					data-scroll
+					data-scroll-speed="0.3"
 					key="asdss"
 					className="mx-auto min-w-screen grid grid-cols-1 place-items-center px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
 					{api[0][0].plan.map((day, index) => {

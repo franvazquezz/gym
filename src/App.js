@@ -5,10 +5,24 @@ import LandGonza from './components/landGonza';
 import DiaDetail from './components/diaDetail';
 import User from './components/userpicker';
 import DiaDetailGonza from './components/diaDetailGonza';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+		(async () => {
+			const LocomotiveScroll = (await import("locomotive-scroll")).default;
+
+			const locomotiveScroll = new LocomotiveScroll({
+				lenisOptions: {
+					duration: 1,
+				},
+			});
+		})();
+	}, []);
   return (
-    <div>
+    <div
+      data-scroll
+      data-scroll-speed = "0.3">
       <Routes>
         <Route path='/' element={<User/>} />
         <Route path='/home/pancho' element={<Land />} />

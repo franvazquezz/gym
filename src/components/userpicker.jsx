@@ -17,7 +17,7 @@ const User = () => {
 	return (
 		<div className=" min-w-screen bg-white min-h-screen">
 			<section className="">
-				<div className="mt-8 grid grid-cols-1 gap-8">
+				<div className="grid grid-cols-1 gap-8">
 					<h1 className="justify-center text-3xl flex font-bold text-indigo-600 sm:text-3xl font-[Poppins] mt-0">
 						Plan de gimansio
 					</h1>
