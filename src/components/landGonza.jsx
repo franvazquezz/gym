@@ -2,7 +2,7 @@
 import api from "../assests/plan.json";
 import {Link} from "react-router-dom";
 
-const Land = () => {
+const LandGonza = () => {
 	// const { activeUser } = useSelector(state => state)
 	// console.log(activeUser);
 	return (
@@ -18,10 +18,10 @@ const Land = () => {
 							</a>
 						</div>
 
-						{api[0][0].plan.map((day, index) => {
+						{api[1][0].plan.map((day, index) => {
 							return (
 								<div key={index} className="mx-auto min-w-screen px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-									<Link to={`/detail/${day.id}`}>
+									<Link to={`/detail/gonza/${day.id}`}>
 										<div
 											className="block rounded-xl border p-8 shadow-lg transition hover:border-pink-500/10 hover:shadow-pink-500/10  active:border-pink-500/10 active:shadow-pink-500/10"
 											href="">
@@ -46,4 +46,4 @@ const Land = () => {
 	);
 };
 
-export default Land;
+export default LandGonza;

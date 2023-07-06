@@ -1,5 +1,9 @@
 [
-  {
+  [{
+  "id": 0,
+  "name": "Francisco Vazquez",
+  "plan": [
+    {
     "name": "Tren inferior & zona media",
     "img": "https://i.pinimg.com/736x/49/7e/84/497e847cd3af9e5e913bbdc9231e2be9--fitness-quotes-fitness-motivation.jpg",
     "id" : 1,
@@ -27,7 +31,7 @@
       }]
     }, 
     "anaerobico" : {
-      "name": "Anaerobico",
+      "name": "Primer Bloque",
       "ejercicios" : [
         {
         "name" : "Shuffle + aceleración 5 metros",
@@ -39,34 +43,39 @@
           "repeticiones" : 8,
           "series" : 2,
           "gif":"https://runningmagazine.ca/wp-content/uploads/2016/03/output_Q4m1ZS.gif"
-        },
-        {
-          "name" : "Sentadilla bulgara",
-          "repeticiones" : 12,
-          "series" : 4,
-          "gif":"https://hips.hearstapps.com/hmg-prod/images/workouts/2016/03/dumbbellbulgariangobletsplitsquat-1457046602.gif"
-        },
-        {
-          "name" : "Bici pesada",
-          "time" : "1 minuto",
-          "series" : 4
-        },
-        {
-          "name" : "Estocada en el lugar",
-          "repeticiones" : 20,
-          "series" : 4,
-          "gif":"https://hips.hearstapps.com/hmg-prod/images/workouts/2016/03/dumbbelllungewithrotation-1457030743.gif"
-        },
-        {
-          "name" : "Abdominales cortos",
-          "repeticiones" : 30,
-          "series" : 4,
-          "gif":"https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/07/20104716/Cirio_Abdominales_1.gif"
         }
       ]
+    },
+    "aerobico" : {
+      "name": "Segundo Bloque",
+      "ejercicios" :[{
+        "name" : "Sentadilla bulgara",
+        "repeticiones" : 20,
+        "series" : 4,
+        "gif":"https://hips.hearstapps.com/hmg-prod/images/workouts/2016/03/dumbbellbulgariangobletsplitsquat-1457046602.gif"
+      },
+      {
+        "name" : "Bici pesada",
+        "time" : "1 minuto",
+        "series" : 4
+      },
+      {
+        "name" : "Estocada en el lugar",
+        "repeticiones" : 20,
+        "series" : 4,
+        "gif":"https://hips.hearstapps.com/hmg-prod/images/workouts/2016/03/dumbbelllungewithrotation-1457030743.gif"
+      },
+      {
+        "name" : "Abdominales cortos",
+        "repeticiones" : 30,
+        "series" : 4,
+        "gif":"https://s3.amazonaws.com/arc-wordpress-client-uploads/infobae-wp/wp-content/uploads/2017/07/20104716/Cirio_Abdominales_1.gif"
+      }
+    ]
+
     }
-  },
-  {
+    },
+    {
     "name": "Tren superior & zona media",
     "img": "https://www.pngmart.com/files/21/Gym-Silhoutte-Transparent-PNG.png",
     "id" : 2,
@@ -94,7 +103,7 @@
       }]
     }, 
     "anaerobico" : {
-      "name": "Anaeróbico",
+      "name": "Primer Bloque",
       "ejercicios" : [
         {
         "name" : "Cross-over + aceleracion 5 metros",
@@ -105,31 +114,34 @@
           "name" : "Shuffle + salto 1 pierna",
           "repeticiones" : 10,
           "series" : 2
-        },
-        {
-          "name" : "Tirón al pecho 1 mano ",
-          "repeticiones" : 20,
-          "series" : 4
-        },
-        {
-          "name" : "Biceps isometrico",
-          "time" : "30 segundos",
-          "series" : 4
-        },
-        {
-          "name" : "Remo con mancuerna",
-          "repeticiones" : 30,
-          "series" : 4
-        },
-        {
-          "name" : "Lanzamientos cortos 1 mano",
-          "repeticiones" : 30,
-          "series" : 4
         }
       ]
+    },
+    "aerobico" : {
+      "name": "Segundo Bloque",
+      "ejercicios" :[{
+        "name" : "Tirón al pecho 1 mano ",
+        "repeticiones" : 20,
+        "series" : 4
+      },
+      {
+        "name" : "Biceps isometrico",
+        "time" : "30 segundos",
+        "series" : 4
+      },
+      {
+        "name" : "Remo con mancuerna",
+        "repeticiones" : 30,
+        "series" : 4
+      },
+      {
+        "name" : "Lanzamientos cortos 1 mano",
+        "repeticiones" : 30,
+        "series" : 4
+      }]
     }
-  },
-  {
+    },
+    {
     "name": "Tren superior & tren Inferior",
     "img":"https://i.pinimg.com/originals/17/9b/4b/179b4b4e65fe8bd9f5f8b7a03ee6febc.png",
     "id" : 3,
@@ -154,7 +166,7 @@
       }]
     }, 
     "anaerobico" : {
-      "name": "Anaeróbico",
+      "name": "Primer Bloque",
       "ejercicios" : [
         {
         "name" : "Salto en largo con banda",
@@ -165,31 +177,34 @@
           "name" : "Aceleración 10 metros",
           "repeticiones" : 10,
           "series" : 2
-        },
-        {
-          "name" : "Press de banca con mancuerna",
-          "repeticiones" : 12,
-          "series" : 4
-        },
-        {
-          "name" : "Subida al cajon con mancuerna",
-          "repeticiones" : 16,
-          "series" : 4
-        },
-        {
-          "name" : "Triceps posicion de scrum",
-          "repeticiones" : 10,
-          "series" : 4
-        },
-        {
-          "name" : "Apertura alternado",
-          "repeticiones" : 16,
-          "series" : 4
         }
       ]
+    }, 
+    "aerobico": {
+      "name": "Segundo Bloque",
+      "ejercicios" : [{
+        "name" : "Press de banca con mancuerna",
+        "repeticiones" : 12,
+        "series" : 4
+      },
+      {
+        "name" : "Subida al cajon con mancuerna",
+        "repeticiones" : 16,
+        "series" : 4
+      },
+      {
+        "name" : "Triceps posicion de scrum",
+        "repeticiones" : 10,
+        "series" : 4
+      },
+      {
+        "name" : "Apertura alternado",
+        "repeticiones" : 16,
+        "series" : 4
+      }]
     }
-  },
-  {
+    },
+    {
     "name": "Tren superior & zona media",
     "img": "https://static.vecteezy.com/system/resources/previews/008/743/782/original/fist-up-black-glyph-icon-symbol-of-protest-and-resistance-political-solidarity-strength-and-power-silhouette-symbol-on-white-space-solid-pictogram-isolated-illustration-vector.jpg",
     "id" : 4,
@@ -215,34 +230,310 @@
       }]
     }, 
     "anaerobico" : {
-      "name": "Anaeróbico",
+      "name": "Primer Bloque",
       "ejercicios" : [
         {
           "name" : "Lanzamiento a 1 mano",
           "repeticiones" : 10,
           "series" : 2
+        }
+      ]
+    }, 
+    "aerobico" : {
+      "name": "Segundo Bloque",
+      "ejercicios" : [{
+        "name" : "Press militar",
+        "repeticiones" : 20,
+        "series" : 4
+      },
+      {
+        "name" : "Remo al menton",
+        "repeticiones" : 15,
+        "series" : 4
+      },
+      {
+        "name" : "Multivuelos / Vuelta al mundo",
+        "repeticiones" : 15,
+        "series" : 4
+      },
+      {
+        "name" : "Abdominal libre",
+        "repeticiones" : 30,
+        "series" : 4
+      }]
+    }}]
+  }],
+
+  [{
+    "id":1,
+  "name": "Gonzalo Vazquez",
+  "plan":[
+    {
+    "name": "Tren inferior & hombros",
+    "img": "https://i.pinimg.com/736x/49/7e/84/497e847cd3af9e5e913bbdc9231e2be9--fitness-quotes-fitness-motivation.jpg",
+    "id" : 1,
+    "warmup": {
+      "name": "Entrada en Calor",
+      "ejercicios" : [{
+        "name" : "Tejido blando",
+        "time" : "4 minutos",
+        "gif" : "https://www.pngall.com/wp-content/uploads/2016/05/Foam-Roller-Transparent.png"
+      }, {
+        "name" : "Cuello en puente gluteo",
+        "time" : "20 segundos",
+        "series": 2
+      }, {
+        "name" : "Cuadrupedia 1 mano",
+        "time" : "40 segundos",
+        "series": 2
+      }, {
+        "name" : "Mov. dorsal boca abajo",
+        "repeticiones" : 8
+      }]
+    }, 
+    "potencia" : {
+      "name": "Potencia",
+      "ejercicios" : [
+        {
+        "name" : "Salto horizontal c/banda",
+        "repeticiones" : 6,
+        "series" : 2
         },
         {
-          "name" : "Press militar",
-          "repeticiones" : 20,
-          "series" : 4
+          "name" : "Empuje barra c/bandas",
+          "repeticiones" : 6,
+          "series" : 2
+        }
+      ]
+    },
+    "hipertrofia" : {
+      "name": "Hipertrofia",
+      "ejercicios" : [
+        {
+        "name" : "Sentadilla",
+        "repeticiones" : 4,
+        "series" : 4
         },
         {
-          "name" : "Remo al menton",
-          "repeticiones" : 15,
-          "series" : 4
+        "name" : "Monster Walk",
+        "repeticiones" : 20,
+        "series" : 4
         },
         {
-          "name" : "Multivuelos / Vuelta al mundo",
-          "repeticiones" : 15,
-          "series" : 4
+        "name" : "Press militar",
+        "repeticiones" : "10 8 6 4"
         },
         {
-          "name" : "Abdominal libre",
-          "repeticiones" : 30,
-          "series" : 4
+        "name" : "Biceps simil banco scott",
+        "repeticiones" : 16,
+        "series" : 4
+        },
+        {
+        "name" : "Empuje de trineo (scrum)",
+        "repeticiones" : "20",
+        "series" : 4
+        },
+        {
+        "name" : "Sentadilla isometrica",
+        "time" : "45 segundos",
+        "series": 4
         }
       ]
     }
-  }
+    },
+    {
+      "name": "Tren inferior & beyond",
+      "img": "https://www.pngmart.com/files/21/Gym-Silhoutte-Transparent-PNG.png",
+      "id" : 2,
+      "warmup": {
+        "name": "Entrada en Calor",
+        "ejercicios" : [{
+          "name" : "Tejido blando",
+          "time" : "4 minutos",
+          "gif" : "https://www.pngall.com/wp-content/uploads/2016/05/Foam-Roller-Transparent.png"
+        }, {
+          "name" : "Cuello en banco (frontal)",
+          "time" : "20 segundos",
+          "series": 2
+        }, {
+          "name" : "Cuadrupedia 1 mano en poste",
+          "time" : "30 segundos",
+          "series": 2
+        }, {
+          "name" : "Mov. dorsal boca abajo",
+          "repeticiones" : 8
+        }]
+      }, 
+      "potencia" : {
+        "name": "Potencia",
+        "ejercicios" : [
+          {
+          "name" : "Cargada al pecho o variante",
+          "repeticiones" : 8,
+          "series" : 2
+          },
+          {
+            "name" : "Shuffle con giro (salto en largo)",
+            "repeticiones" : 6,
+            "series" : 2
+          }
+        ]
+      },
+      "hipertrofia" : {
+        "name": "Hipertrofia",
+        "ejercicios" : [
+          {
+          "name" : "Dominadas supinas",
+          "repeticiones" : "6 6 6 Fallo"
+          },
+          {
+          "name" : "Tracción trineo lateral + remo",
+          "repeticiones" : 20,
+          "series" : 4
+          },
+          {
+          "name" : "Triceps posición de scrum",
+          "repeticiones" : 8,
+          "series" : 4
+          },
+          {
+          "name" : "Remo c/barra",
+          "repeticiones" : 6,
+          "series" : 4
+          },
+          {
+          "name" : "Cuadrupedia en poste + tracción",
+          "repeticiones" : "20",
+          "series" : 4
+          },
+          {
+          "name" : "Remo c/mancuerna",
+          "repeticiones" : "Fallo",
+          "series": 4
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tren superior & cosas raras",
+      "img":"https://i.pinimg.com/originals/17/9b/4b/179b4b4e65fe8bd9f5f8b7a03ee6febc.png",
+      "id" : 3,
+      "warmup": {
+        "name": "Entrada en Calor",
+        "ejercicios" : [{
+          "name" : "Tejido blando",
+          "time" : "4 minutos",
+          "gif" : "https://www.pngall.com/wp-content/uploads/2016/05/Foam-Roller-Transparent.png"
+        }, {
+          "name" : "Cuello lateral con banda",
+          "time" : "40 segundos",
+          "series": 2
+        }, {
+          "name" : "Cuadrupedia con banda en cintura",
+          "time" : "1 minuto",
+          "series": 2
+        }, {
+          "name" : "Mov. dorsal boca abajo",
+          "repeticiones" : 8
+        }]
+      }, 
+      "potencia" : {
+        "name": "Potencia",
+        "ejercicios" : [
+          {
+          "name" : "Cross-over + press pallof",
+          "repeticiones" : 6,
+          "series" : 2
+          },
+          {
+            "name" : "Segundo tiempo",
+            "repeticiones" : 10,
+            "series" : 2
+          }
+        ]
+      },
+      "hipertrofia" : {
+        "name": "Hipertrofia",
+        "ejercicios" : [
+          {
+          "name" : "Press banca",
+          "repeticiones" : 4,
+          "series": 4
+          },
+          {
+          "name" : "Caminata con barra inestable",
+          "repeticiones" : 20,
+          "series" : 3
+          },
+          {
+          "name" : "Multi vuelos",
+          "repeticiones" : 16,
+          "series" : 4
+          },
+          {
+          "name" : "Estocadas cruzadas hacia atras ",
+          "repeticiones" : 12,
+          "series" : 4
+          },
+          {
+          "name" : "Posicion de empuje TRX",
+          "repeticiones" : 20,
+          "series" : 3
+          },
+          {
+          "name" : "Caminata de modelo",
+          "repeticiones" : 20,
+          "series": 3
+          }
+        ]
+      }
+      },
+    {
+    "name": "Tren superior & brazos",
+    "img": "https://static.vecteezy.com/system/resources/previews/008/743/782/original/fist-up-black-glyph-icon-symbol-of-protest-and-resistance-political-solidarity-strength-and-power-silhouette-symbol-on-white-space-solid-pictogram-isolated-illustration-vector.jpg",
+    "id" : 4,
+    "warmup": {
+      "name": "Entrada en Calor",
+      "ejercicios" : [{
+        "name" : "Tejido blando",
+        "time" : "4 minutos",
+        "gif" : "https://www.pngall.com/wp-content/uploads/2016/05/Foam-Roller-Transparent.png"
+      }]
+    }, 
+    "hipertrofia" : {
+      "name": "Hipertrofia",
+      "ejercicios" : [
+        {
+        "name" : "Vuelo frontal cruzado",
+        "repeticiones" : 10,
+        "series": 4
+        },
+        {
+        "name" : "Remo al menton",
+        "repeticiones" : 4,
+        "series" : 4
+        },
+        {
+        "name" : "Press inclinado",
+        "repeticiones" : "10 8 6 4"
+        },
+        {
+        "name" : "Pull-over en polea",
+        "repeticiones" : 8,
+        "series" : 4
+        },
+        {
+        "name" : "Biceps libre",
+        "repeticiones" : 4,
+        "series" : 4
+        },
+        {
+        "name" : "Triceps libre",
+        "repeticiones" : 4,
+        "series": 4
+        }
+      ]
+    }
+    }]
+  }]
 ]

@@ -2,7 +2,7 @@ import api from "../assests/plan.json";
 import {useEffect, useState} from "react";
 import {useParams} from "react-router-dom";
 
-const DiaDetail = () => {
+const DiaDetailGonza = () => {
 	const {id} = useParams();
 	const [diff, setDiff] = useState(null);
 	const [initial, setInitial] = useState(null);
@@ -60,7 +60,7 @@ const DiaDetail = () => {
 				<div
 					key="asdss"
 					className="mx-auto min-w-screen grid grid-cols-1 place-items-center px-4 py-8 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-					{api[0][0].plan.map((day, index) => {
+					{api[1][0].plan.map((day, index) => {
 						if (day.id === parseInt(id))
 							return (
 								<div key={index} className="mx-auto min-w-screen grid grid-cols-1">
@@ -109,10 +109,10 @@ const DiaDetail = () => {
 										})}
 
 										<h2 className="mt-4 mb-4 text-xl text-center font-bold text-black font-[Poppins]">
-											{day.anaerobico?.name}
+											{day.potencia?.name}
 										</h2>
 
-										{day.anaerobico && day.anaerobico?.ejercicios.map((ej, index) => {
+										{day.potencia && day.potencia?.ejercicios.map((ej, index) => {
 											return (
 												<div key={index}>
 													<article className="relative overflow-hidden rounded-lg shadow-lg transition hover:border-pink-500/10 hover:shadow-pink-500/10  active:border-pink-500/10 active:shadow-pink-500/10">
@@ -151,14 +151,14 @@ const DiaDetail = () => {
 												</div>
 											);
 										})}
-										<h4 className="mt-4 mb-4 text-sm text-center font-bold text-black font-[Poppins]">Descanso 2 minutos</h4>
 										<h2 className="mt-4 mb-4 text-xl text-center font-bold text-black font-[Poppins]">
-											{day.aerobico?.name}
+											{day.hipertrofia?.name}
 										</h2>
-
-										{day.aerobico && day.aerobico?.ejercicios.map((ej, index) => {
+										{day.hipertrofia && day.hipertrofia?.ejercicios.map((ej, index) => {
 											return (
+												
 												<div key={index}>
+													{(index+2) % 2 === 0 && <div>{index !== 0 && <div><h4 className="mt-4 mb-4 text-sm text-center font-bold text-black font-[Poppins]">Descanso 90''</h4><br></br></div>}<h3 className="mt-4 mb-4 text-lg text-center font-bold text-black font-[Poppins]">{`Bloque ${(index+2)/2}`}</h3></div>}
 													<article className="relative overflow-hidden rounded-lg shadow-lg transition hover:border-pink-500/10 hover:shadow-pink-500/10  active:border-pink-500/10 active:shadow-pink-500/10">
 														<img
 															alt="Office"
@@ -183,11 +183,10 @@ const DiaDetail = () => {
 																		`${ej.time && `${ej.time}`} x ${ej.series && `${ej.series} series`}${" "}`}
 																	{!ej.series &&
 																		ej.repeticiones &&
-																		`${ej.repeticiones && `${ej.repeticiones} repeticiones`} x ${" "}
-																			${ej.series && `${ej.series} series`}`}
+																		`${ej.repeticiones && `${ej.repeticiones} repeticiones`}`}
 																	{!ej.series &&
 																		ej.time &&
-																		`${ej.time && `${ej.time}`} x ${ej.series && `${ej.series} series`}${" "}`}
+																		`${ej.time && `${ej.time}`}`}
 																</p>
 															</div>
 														</div>
@@ -195,7 +194,6 @@ const DiaDetail = () => {
 												</div>
 											);
 										})}
-										<h4 className="mt-4 mb-4 text-sm text-center font-bold text-black font-[Poppins]">Descanso 2 minutos</h4>
 									</div>
 									<div className="m-auto">
 										<div className="w-80 h-80 mt-4 sm:mx-16 bg-white rounded-full flex flex-col justify-center items-center border-4 border-emerald-500 shadow-xl transition hover:border-pink-500/10 hover:shadow-pink-500/10">
@@ -219,4 +217,4 @@ const DiaDetail = () => {
 	);
 };
 
-export default DiaDetail;
+export default DiaDetailGonza;
