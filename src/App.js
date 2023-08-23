@@ -6,6 +6,7 @@ import DiaDetail from './components/diaDetail';
 import User from './components/userpicker';
 import DiaDetailGonza from './components/diaDetailGonza';
 import { useEffect } from 'react';
+import Plan from './components/plan';
 
 function App() {
   useEffect(() => {
@@ -28,7 +29,8 @@ function App() {
         <Route path='/home/pancho' element={<Land />} />
         <Route path='/home/gonza' element={<LandGonza/>}/>
         <Route path='/detail/:id' element={<DiaDetail />} />
-        <Route path='/detail/gonza/:id' element={<DiaDetailGonza/>}/>
+        <Route path='/detail/gonza/:id' element={<DiaDetailGonza />} />
+        <Route path='/plan' element={<Plan/>} />
       </Routes>
     </div>
     )

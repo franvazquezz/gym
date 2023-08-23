@@ -9,11 +9,11 @@ const Land = () => {
 		<div>
 			<section className="bg-white">
 				<div className="mx-auto min-w-screen px-4 sm:py-12 sm:px-6 lg:py-16 lg:px-8">
-					<div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2 lg:grid-cols-2">
-						<div className="px-24">
+					<div className="grid grid-cols-1 items-center gap-8">
+						<div className="px-24 flex flex-row justify-center items-center">
 							<a
 								href="/"
-								className="block text-center rounded bg-pink-600 px-6 py-3 m-8 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400 font-[Poppins]">
+								className="block text-center lg:w-2/5 rounded bg-pink-600 px-6 py-3 m-8 text-sm font-medium text-white transition hover:bg-pink-700 focus:outline-none focus:ring focus:ring-yellow-400 font-[Poppins]">
 								Ir a inicio
 							</a>
 						</div>

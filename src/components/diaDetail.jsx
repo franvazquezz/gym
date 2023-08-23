@@ -217,7 +217,7 @@ const DiaDetail = () => {
 												className="text-center text-emerald-500 shadow-sm text-6xl rounded-full font-[Poppins]">
 												{timeFormat(diff)}
 											</h1>
-											<button onClick={stop} className="bg-white rounded-full h-24 w-24 shadow-xl">
+											<button onClick={stop} className="bg-white rounded-full h-24 w-24 shadow-xl font-[Poppins]">
 												Stop
 											</button>
 										</div>
